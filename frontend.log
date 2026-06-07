@@ -1,0 +1,13 @@
+
+> tools-hub@0.1.0 dev
+> next dev --turbopack
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://172.28.160.1:3000
+- Environments: .env.local
+✓ Ready in 315ms
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+
+○ Compiling /login ...
+ GET /login 200 in 3.4s (next.js: 3.2s, proxy.ts: 1441µs, application-code: 204ms)

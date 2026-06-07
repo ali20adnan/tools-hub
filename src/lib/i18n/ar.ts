@@ -1,0 +1,92 @@
+export const arMessages = {
+  brand: {
+    title: "مركز الأدوات",
+  },
+  nav: {
+    home: "الرئيسية",
+    excelExtractor: "استخراج Excel",
+    duplicateDetector: "كشف التكرار",
+    excelMerger: "دمج الملفات",
+    excelCompare: "مقارنة الملفات",
+    imageScanner: "ماسح ضوئي",
+    admin: "لوحة الأدمن",
+    publicSite: "الموقع العام",
+    user: "مستخدم",
+    search: "بحث...",
+  },
+  pages: {
+    home: {
+      title: "الرئيسية",
+      subtitle: "اختر الأداة المناسبة لمعالجة بيانات Excel",
+    },
+    excelExtractor: {
+      title: "استخراج بيانات Excel",
+      subtitle: "صفّ البيانات، لوّن الأعمدة، حدّد الصفوف، وصدّر ما تحتاجه",
+    },
+    duplicateDetector: {
+      title: "كشف التكرار",
+      subtitle: "اكتشف القيم المكررة داخل عمود واحد",
+    },
+    excelMerger: {
+      title: "دمج ملفات Excel",
+      subtitle: "ارفع ملفين أو أكثر وادمجهم في ورقة واحدة",
+    },
+    excelCompare: {
+      title: "مقارنة ملفين Excel",
+      subtitle: "اكتشف الاختلافات بين نسختين من البيانات",
+    },
+    imageScanner: {
+      title: "ماسح ضوئي",
+      subtitle: "رفع الصور أو الماسح الضوئي المحلي مع قص وتدوير وتصدير",
+    },
+    admin: {
+      title: "لوحة الأدمن",
+      subtitle: "إدارة المنصة والحسابات والصلاحيات",
+    },
+    fallbackTitle: {
+      title: "مركز الأدوات",
+    },
+  },
+  auth: {
+    changePasswordTitle: "تغيير كلمة المرور",
+    changePasswordWelcome: "مرحباً {name}، يرجى تعيين كلمة مرور جديدة",
+    tempPasswordWarning: "كلمة المرور الحالية مؤقتة. يجب تغييرها قبل المتابعة.",
+    newPassword: "كلمة المرور الجديدة",
+    newPasswordRequired: "كلمة المرور الجديدة مطلوبة",
+    passwordMinLength: "كلمة المرور يجب أن تكون 6 أحرف على الأقل",
+    changePasswordSubmit: "تغيير كلمة المرور",
+    passwordChanged: "تم تغيير كلمة المرور بنجاح",
+    passwordChangeFailed: "فشل تغيير كلمة المرور",
+  },
+  admin: {
+    unauthorizedTitle: "غير مصرح",
+    unauthorizedDesc: "ليس لديك صلاحية للوصول إلى لوحة الأدمن.",
+    createAccount: "تسجيل الحسابات",
+    createAccountDesc: "أنشئ حسابًا يدويًا من لوحة المشرف",
+    fullName: "الاسم الكامل",
+    email: "البريد الإلكتروني",
+    role: "الدور",
+    passwordOptional: "كلمة المرور (اختياري)",
+    passwordPlaceholder: "اتركها فارغة للتوليد التلقائي",
+    createSubmit: "إنشاء الحساب",
+    accountCreated: "تم إنشاء الحساب: {email}{passwordPart}",
+    accountCreatedPassword: " — كلمة المرور: {password}",
+    accountUpdated: "تم تحديث الحساب",
+    accountUpdateFailed: "فشل تحديث الحساب",
+    requests: "طلبات الحساب",
+    users: "الحسابات الحالية",
+    maintenanceMode: "وضع الصيانة",
+    tools: "تفعيل الأدوات",
+    auditLog: "سجل التدقيق",
+    tempPassword: "كلمة مرور مؤقتة",
+  },
+  theme: {
+    light: "وضع فاتح",
+    dark: "وضع داكن",
+    systemLight: "النظام (فاتح)",
+    systemDark: "النظام (داكن)",
+  },
+  common: {
+    logout: "تسجيل الخروج",
+  },
+} as const
